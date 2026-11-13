@@ -1,0 +1,25 @@
+artifact_path: file:///E:/python/AI_Marketing_Intelligence/mlruns/2/models/m-b26702c4913244d4bb7100629f57d707/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.18
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - xgboost.core.Booster
+    - xgboost.sklearn.XGBClassifier
+mlflow_version: 3.18.0
+model_id: m-b26702c4913244d4bb7100629f57d707
+model_size_bytes: 38667
+model_uuid: m-b26702c4913244d4bb7100629f57d707
+prompts: null
+run_id: dba6609834b0415fab00a2541531c777
+utc_time_created: '2026-11-13 06:48:41.099985'

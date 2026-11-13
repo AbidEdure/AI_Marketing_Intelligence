@@ -1,0 +1,41 @@
+{
+  "feature_cols": [
+    "age",
+    "annual_income",
+    "days_since_signup",
+    "recency_days",
+    "purchase_frequency_12m",
+    "average_order_value",
+    "total_spend_12m",
+    "website_visits_30d",
+    "email_opens_30d",
+    "avg_session_minutes",
+    "discount_usage_rate",
+    "previous_campaigns",
+    "previous_campaign_responses",
+    "campaign_discount_percent",
+    "gender",
+    "city_tier",
+    "preferred_channel",
+    "favorite_category",
+    "membership_tier",
+    "campaign_type",
+    "spend_per_order",
+    "orders_per_visit",
+    "email_engagement",
+    "campaign_response_rate",
+    "income_per_age",
+    "tenure_years",
+    "R_score",
+    "F_score",
+    "M_score"
+  ],
+  "cat_features": [
+    "gender",
+    "city_tier",
+    "preferred_channel",
+    "favorite_category",
+    "membership_tier",
+    "campaign_type"
+  ]
+}
